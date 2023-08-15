@@ -1,0 +1,77 @@
+*{
+    padding:10px;
+    margin:0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(45deg,#64cfc8,#00d4ff);
+}
+
+.container{
+    border: 2px solid goldenrod;
+    padding:20px;
+    max-width: -moz-fit-content;
+    background:url("https://img1.picmix.com/output/stamp/normal/8/2/8/1/1611828_ed2dd.gif");
+    border-radius: 20px;
+}
+
+input{
+    background:transparent;
+    color:white;
+    font-size:1rem;
+    text-align: right;
+    cursor: pointer;
+}
+
+button{
+    border-radius: 20px;
+    width:60px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.del, .equal-btn{
+    color:orange;
+}
+
+.op{
+    color:green;
+}
+
+button:active{
+    transform:scale(0.99);
+}
+
+h2{
+    color:white;
+}
+
+button:hover{
+    background-color: palegreen;
+    cursor:pointer;
+}
+
+@media only screen and (max-width:501px){
+    
+    button{
+        border-radius: 20px;
+        width:40px;
+        height: 30px;
+        font-size: 10px;
+    }
+}    
+
+@media only screen and (min-width:501px) and (max-width:980px){
+
+    button{
+        border-radius: 20px;
+        width:60px;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+
+}    
